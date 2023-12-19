@@ -20,7 +20,8 @@ This will watch the project directory and restart as necessary.
 1. Create a Fresh project from [Deno Deploy](https://dash.deno.com/projects) assigned to a Github repo
 2. Remix your Github repo by going to https://glitch.new/github/GITHUBUSERNAME/GITHUBPROJECT
 3. add `.deno/` to .gitignore and add the contents of `glitch.json` so Glitch knows how to run
-3. Open the Glitch terminal and update the Git commands in the next section to set your remote to be the Github repo of your Deno Deploly project
+4. Open the Glitch terminal and update the Git commands in the next section to set your remote to be the Github repo of your Deno Deploy project
+5. Install deno in the terminal using the [Shell instructions in their docs]()
 
 #### Git commands Jenn ran
 1. `git remote add gh https://github.com/USERNAME/PROJECT.git` I called my remote gh because github
