@@ -21,7 +21,7 @@ This will watch the project directory and restart as necessary.
 2. Remix your Github repo by going to https://glitch.new/github/GITHUBUSERNAME/GITHUBPROJECT
 3. add `.deno/` to .gitignore and add the contents of `glitch.json` so Glitch knows how to run
 4. Open the Glitch terminal and update the Git commands in the next section to set your remote to be the Github repo of your Deno Deploy project
-5. Install deno in the terminal using the [Shell instructions in their docs]()
+5. Install deno in the terminal using the [Shell instructions in their docs](https://docs.deno.com/runtime/manual/getting_started/installation) and follow the directions in the Terminal for setting the export path. Note: you'll probably need to boost your Glitch app so you get more disk space here.
 
 #### Git commands Jenn ran
 1. `git remote add gh https://github.com/USERNAME/PROJECT.git` I called my remote gh because github
