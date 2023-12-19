@@ -27,4 +27,4 @@ This will watch the project directory and restart as necessary.
 1. `git remote add gh https://github.com/USERNAME/PROJECT.git` I called my remote gh because github
 2. `git pull gh` (and then fix any conflicts)
 3. `git branch first-update && git checkout first-update`
-3. `git push gh master: main`
+4. `git push gh master: main`
