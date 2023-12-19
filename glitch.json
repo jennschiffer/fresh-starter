@@ -1,5 +1,5 @@
 {
-  "start": "/app/.deno/bin/deno run --allow-all server.ts",
+  "start": "/app/.deno/bin/deno run --allow-all dev.ts",
   "install": "rm -rf .cache/deno",
   "watch": {
     "restart": {
