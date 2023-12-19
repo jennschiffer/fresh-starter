@@ -1,0 +1,20 @@
+{
+  "start": "/app/.deno/bin/deno run --allow-all server.ts",
+  "install": "rm -rf .cache/deno",
+  "watch": {
+    "restart": {
+      "include": [
+        "\\.tsx$",
+        "\\.ts$",
+        "\\.js$"
+      ]
+    },
+    "install": {
+      "exclude": [
+        "\\.html$",
+        "\\.css$"
+      ]
+    },
+    "throttle": 500
+  }
+}
