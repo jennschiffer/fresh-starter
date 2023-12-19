@@ -3,17 +3,10 @@
   "install": "rm -rf .cache/deno",
   "watch": {
     "restart": {
-      "include": [
-        "\\.tsx$",
-        "\\.ts$",
-        "\\.js$"
-      ]
+      "include": ["\\.tsx$", "\\.ts$", "\\.js$"]
     },
     "install": {
-      "exclude": [
-        "\\.html$",
-        "\\.css$"
-      ]
+      "exclude": ["\\.html$", "\\.css$"]
     },
     "throttle": 500
   }
